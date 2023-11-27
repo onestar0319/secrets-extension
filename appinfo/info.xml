@@ -2,7 +2,7 @@
 <info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
     <!--
-    SPDX-FileCopyrightText: Tobias Knöppler <thecalcaholic@web.de>
+    SPDX-FileCopyrightText: Ambrose Larkin <ambroseLarkin@goldendelta.space>
     SPDX-License-Identifier: CC0-1.0
     -->
     <id>secrets</id>
@@ -11,17 +11,17 @@
     <description><![CDATA[Securely share data with anyone. All data is end-to-end encrypted by the user and will be deleted once retrieved successfully]]></description>
     <version>1.5.2</version>
     <licence>agpl</licence>
-    <author mail="thecalcaholic@web.de" homepage="https://github.com/theCalcaholic">Tobias Knöppler</author>
+    <author mail="ambroseLarkin@goldendelta.space" homepage="https://github.com/fstar-dev">AmbroseLarkin</author>
     <namespace>Secrets</namespace>
     <category>security</category>
     <category>social</category>
     <category>tools</category>
-    <bugs>https://github.com/theCalcaholic/nextcloud-secrets</bugs>
-	<screenshot small-thumbnail="https://raw.githubusercontent.com/theCalcaholic/nextcloud-secrets/main/screenshots/share_link.png">
-		https://raw.githubusercontent.com/theCalcaholic/nextcloud-secrets/main/screenshots/share_link.png
+    <bugs>https://github.com/fstar-dev/secrets-extension</bugs>
+	<screenshot small-thumbnail="https://raw.githubusercontent.com/fstar-dev/secrets-extension/main/screenshots/share_link.png">
+		https://github.com/fstar-dev/secrets-extension//main/screenshots/share_link.png
 	</screenshot>
-	<screenshot>https://raw.githubusercontent.com/theCalcaholic/nextcloud-secrets/main/screenshots/public_share.png</screenshot>
-	<screenshot>https://raw.githubusercontent.com/theCalcaholic/nextcloud-secrets/main/screenshots/new_secret.png</screenshot>
+	<screenshot>https://github.com/fstar-dev/secrets-extension/main/screenshots/public_share.png</screenshot>
+	<screenshot>https://github.com/fstar-dev/secrets-extension/main/screenshots/new_secret.png</screenshot>
     <dependencies>
         <nextcloud min-version="26" max-version="27"/>
     </dependencies>

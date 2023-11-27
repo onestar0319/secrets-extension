@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: Tobias Knöppler <thecalcaholic@web.de>
+SPDX-FileCopyrightText: Ambrose Larkin <ambroseLarkin@goldendelta.space>
 SPDX-License-Identifier: CC0-1.0
 -->
 

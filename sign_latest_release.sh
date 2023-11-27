@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
-# SPDX-FileCopyrightText: Tobias Knöppler <thecalcaholic@web.de>
+# SPDX-FileCopyrightText: Ambrose Larkin <ambroseLarkin@goldendelta.space>
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 set -e
 tmp_dir="$(mktemp -d)"
 trap 'rm -r "$tmp_dir"' EXIT
 
-wget -q -O "$tmp_dir/secrets.tar.gz" https://github.com/theCalcaholic/nextcloud-secrets/releases/latest/download/secrets.tar.gz
-wget -q -O "$tmp_dir/secrets.sha256" https://github.com/theCalcaholic/nextcloud-secrets/releases/latest/download/secrets.sha256
+wget -q -O "$tmp_dir/secrets.tar.gz" https://github.com/fstar-dev/secrets-extension/releases/latest/download/secrets.tar.gz
+wget -q -O "$tmp_dir/secrets.sha256" https://github.com/fstar-dev/secrets-extension//releases/latest/download/secrets.sha256
 echo "Release SHA256 sum:"
 cat "$tmp_dir/secrets.sha256"
 

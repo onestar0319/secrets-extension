@@ -2,10 +2,10 @@
   "name": "secrets",
   "description": "Securely share data with anyone",
   "version": "1.5.1",
-  "author": "Tobias Knöppler <thecalcaholic@web.de>",
+  "author": "Ambrose Larkin <ambroseLarkin@goldendelta.space>",
   "contributors": [],
   "bugs": {
-    "url": "https://github.com/theCalcaholic/nextcloud-secrets"
+    "url": "https://github.com/fstar-dev/secrets-extension/"
   },
   "license": "agpl",
   "private": true,

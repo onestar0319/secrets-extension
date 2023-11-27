@@ -1,10 +1,10 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Secrets
-Upstream-Contact: Tobias Knöppler <thecalcaholic@web.de>
+Upstream-Contact: Ambrose Larkin <ambroseLarkin@goldendelta.space>
 Source: https://github.com/nextcloud/profiler
 
 Files: package-lock.json package.json composer.json composer.lock
-Copyright: Tobias Knöppler <thecalcaholic@web.de>
+Copyright: Ambrose Larkin <ambroseLarkin@goldendelta.space>
 License: GPL-3.0-or-later
 
 Files: vendor-bin/*/composer.json vendor-bin/*/composer.lock
